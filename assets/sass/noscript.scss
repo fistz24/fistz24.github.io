@@ -3,18 +3,38 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
+<<<<<<< HEAD
 @import 'libs/html-grid';
 
 /*
 	Stellar by HTML5 UP
+=======
+
+/*
+	Dimension by HTML5 UP
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+<<<<<<< HEAD
+=======
+/* BG */
+
+	#bg {
+		body.is-preload & {
+			&:before {
+				background-color: transparent;
+			}
+		}
+	}
+
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
 /* Header */
 
 	#header {
 		body.is-preload & {
+<<<<<<< HEAD
 			&.alt {
 				> * {
 					opacity: 1;
@@ -25,4 +45,29 @@
 				}
 			}
 		}
+=======
+			> * {
+				opacity: 1;
+			}
+
+			@include vendor('filter', 'none');
+
+			.content {
+				.inner {
+					max-height: none;
+					padding: 3rem 2rem;
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+/* Main */
+
+	#main {
+		article {
+			opacity: 1;
+			margin: (_size(element-margin) * 2) 0 0 0;
+		}
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
 	}

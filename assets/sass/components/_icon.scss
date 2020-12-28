@@ -1,5 +1,9 @@
 ///
+<<<<<<< HEAD
 /// Stellar by HTML5 UP
+=======
+/// Dimension by HTML5 UP
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -8,10 +12,13 @@
 
 	.icon {
 		@include icon;
+<<<<<<< HEAD
 		@include vendor('transition', (
 			'background-color #{_duration(transition)} ease-in-out',
 			'color #{_duration(transition)} ease-in-out'
 		));
+=======
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
 		border-bottom: none;
 		position: relative;
 
@@ -20,7 +27,11 @@
 		}
 
 		&:before {
+<<<<<<< HEAD
 			line-height: solid;
+=======
+			line-height: inherit;
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
 		}
 
 		&.solid {
@@ -34,6 +45,7 @@
 				font-family: 'Font Awesome 5 Brands';
 			}
 		}
+<<<<<<< HEAD
 
 		&.major {
 			border: solid 1px;
@@ -144,3 +156,6 @@
 	}
 
 	@include color-icon;
+=======
+	}
+>>>>>>> bc1b23ac6b1a7334bcdcd1d2b0632553534bc723
