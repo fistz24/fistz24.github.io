@@ -1,4 +1,4 @@
 ## About 
 
-This is a repo dedicated for my Data Science Portfolio
+This repo is dedicated to my Data Science Portfolio
 
